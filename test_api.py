@@ -1,8 +1,3 @@
-"""
-Sample test script demonstrating how to use the Deel AI Challenge API.
-Run this after starting the server with: python run.py
-"""
-
 import requests
 import json
 import time
