@@ -87,10 +87,15 @@ Neblify is a FastAPI-based solution for intelligent transaction-to-user matching
 ### Start the Server
 
 ```bash
-python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+python run.py
 ```
 
 The API will be available at `http://localhost:8000`
+
+**Alternative (using uvicorn directly):**
+```bash
+python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
 
 ### API Documentation
 
@@ -107,7 +112,7 @@ Watch the API in action:
 
 <video width="100%" controls>
   <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+   Your browser does not support the video tag.
 </video>
 
 ---
